@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <plugin id="com.jetbrains.lightThemePreview" url="https://www.github.com/bhanafee/jbplugins/IntelliJLightTheme.jar" version="1.0.1">
+  <plugin id="com.jetbrains.lightThemePreview" url="https://raw.githubusercontent.com/bhanafee/jbplugins/master/IntelliJLightTheme.jar" version="1.0.1">
     <!--
       The <idea-version> element must match the same element in plugin.xml. Required.
     -->
