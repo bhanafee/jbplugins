@@ -6,7 +6,7 @@
     -->
     <idea-version since-build="191.0" until-build="193"/>
   </plugin>
-  <plugin id="com.example.customThemeColor" url="https://www.example.com/not/real.jar" version="1.0.0">
+  <plugin id="com.github.bhanafee.corporatetheme" url="https://raw.githubusercontent.com/bhanafee/jbplugins/master/CorporateTheme.jar" version="1.0.0">
     <!--
       The <idea-version> element must match the same element in plugin.xml. Required.
     -->

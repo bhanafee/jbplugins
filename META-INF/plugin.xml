@@ -1,0 +1,48 @@
+<idea-plugin>
+  <id>com.github.bhanafee.corporatetheme</id>
+  <name>Corporate Theme</name>
+  <version>1.0.0</version>
+  <vendor email="bhanafee@gmail.com" url="https://www.github.com/bhanafee">Corporate</vendor>
+
+  <description><![CDATA[
+Corporate is a new theme for customized IDEs using a corporate pallete. This plugin can be used with versions 2019.1 and 2019.2.
+<br/><br/>
+The theme features corporate branding:
+<ul>
+<li>A cleaner editor scheme with regular font styles instead of bolds</li>
+<li>A unified theme for Windows, macOS and Linux</li>
+</ul>
+The goal of this them is to demonstrate installing and updating plugins internally.
+<br/><br/>
+
+To install:
+<ol>
+<li>Go to <b>Settings | Plugins</b>, find the theme plugin and install it</li>
+<li>Restart the IDE</li>
+<li>Go to <b>Settings | Appearance & Behavior | Appearance</b> and select <b>IntelliJ Light Preview</b> in the Theme dropdown</li>
+</ol>
+    ]]></description>
+
+  <change-notes><![CDATA[
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="191.0" until-build="193"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+
+  <depends>com.intellij.modules.lang</depends>
+
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="9ce043e6-f2db-4cea-bc5a-0d2401653164" path="/Light.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
